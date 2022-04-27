@@ -9,6 +9,12 @@ struct Member
    char *name;
 } member = {18, "Tim"};
 
+// typedef 为类型取个新的名字
+typedef struct Books
+{
+   int num;
+} Book;
+
 /* 结构体 */
 int main()
 {
@@ -22,4 +28,8 @@ int main()
     member1.name = "Ben";
     printf("%d\n", member1.age);
     printf("%s\n", member1.name);
+
+    Book b;
+    b.num = 200;
+    printf("%d\n",  b.num);
 }
