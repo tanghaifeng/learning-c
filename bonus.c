@@ -37,4 +37,6 @@ int main()
 
     printf("员工提成为：%f", bonus);
 
+    return 0;
+
 }
