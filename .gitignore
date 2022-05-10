@@ -5,4 +5,5 @@ out
 target
 *.iml
 *.exe
+*.out
 
