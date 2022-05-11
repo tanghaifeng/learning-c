@@ -30,12 +30,13 @@ int main()
 void arithmeticOperation()
 {
     int var[] = {10, 100, 200};
+    printf("变量首地址：%p .\n", &var);
     int i , *ptr;
     ptr = var;
     for (i=0; i < 3; i++)
     {
         printf("存储地址： %p", ptr);
-        printf("存储值： %d", *ptr);
+        printf("存储值： %d ", *ptr);
         ptr++;
     }
 }
