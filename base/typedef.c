@@ -17,17 +17,21 @@ int main()
 
     long d = 2;
     demotion(d);
+
+    // cast 强制类型转换
+    double e = 2.01;
+    printf("%d",(int)e);
     return 0;
 }
 
 void promotion(int size)
 {
-    printf("%zd .\n", sizeof(size));
+    printf("%zd .\n", sizeof size);
 
 }
 
 void demotion(int size)
 {
-    printf("%zd .\n", sizeof(size));
+    printf("%zd .\n", sizeof size);
 
 }
