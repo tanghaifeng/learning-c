@@ -12,6 +12,7 @@ int main()
 // 递归函数
 void up_and_down(int n)
 {
+    printf("%d", TESTHEADFILE);
     printf("Level %d: n localtion %p \n", n ,&n);
     if (n < 4)
     {
