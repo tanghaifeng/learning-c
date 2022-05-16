@@ -3,6 +3,8 @@
         "stdio.h": "c",
         "string.h": "c",
         "cstring": "c",
-        "locale": "c"
+        "locale": "c",
+        "cstdlib": "c",
+        "numbers": "c"
     }
 }
